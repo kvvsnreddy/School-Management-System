@@ -1,0 +1,15 @@
+-- Insert a new student
+INSERT INTO Students (FirstName, LastName, DateOfBirth, Gender, ContactNumber, Address)
+VALUES ('John', 'Doe', '2010-05-15', 'Male', '1234567890', '123 Main St');
+
+-- Insert a new teacher
+INSERT INTO Teachers (FirstName, LastName, DateOfBirth, Gender, ContactNumber, Address, Qualification)
+VALUES ('Jane', 'Smith', '1985-08-20', 'Female', '9876543210', '456 Elm St', 'M.Ed');
+
+-- Insert a new class
+INSERT INTO Classes (ClassName, Section)
+VALUES ('Grade 5', 'A');
+
+-- Insert a new subject
+INSERT INTO Subjects (SubjectName)
+VALUES ('Mathematics');

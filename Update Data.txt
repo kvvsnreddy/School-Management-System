@@ -1,0 +1,9 @@
+-- Update a student's contact number
+UPDATE Students
+SET ContactNumber = '0987654321'
+WHERE StudentID = 1;
+
+-- Update a teacher's qualification
+UPDATE Teachers
+SET Qualification = 'Ph.D'
+WHERE TeacherID = 1;

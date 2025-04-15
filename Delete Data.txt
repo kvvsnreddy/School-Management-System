@@ -1,0 +1,5 @@
+-- Delete a student
+DELETE FROM Students WHERE StudentID = 1;
+
+-- Delete a subject
+DELETE FROM Subjects WHERE SubjectID = 1;

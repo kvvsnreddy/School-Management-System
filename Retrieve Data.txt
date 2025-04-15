@@ -1,0 +1,14 @@
+-- Get all students
+SELECT * FROM Students;
+
+-- Get all teachers
+SELECT * FROM Teachers;
+
+-- Get all classes with their sections
+SELECT ClassName, Section FROM Classes;
+
+-- Get all subjects taught by a specific teacher
+SELECT s.SubjectName
+FROM Subjects s
+JOIN Assignments a ON s.SubjectID = a.SubjectID
+WHERE a.TeacherID = 1;

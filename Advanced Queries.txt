@@ -1,0 +1,15 @@
+-- Get the list of students enrolled in a specific class
+SELECT s.FirstName, s.LastName
+FROM Students s
+JOIN Enrollments e ON s.StudentID = e.StudentID
+WHERE e.ClassID = 1;
+
+-- Get the attendance record of a student for a specific date
+SELECT a.AttendanceDate, a.Status
+FROM Attendance a
+WHERE a.StudentID = 1 AND a.AttendanceDate = '2023-10-01';
+
+-- Get the average marks of a student in all subjects
+SELECT AVG(Marks) AS AverageMarks
+FROM Grades
+WHERE StudentID = 1;
