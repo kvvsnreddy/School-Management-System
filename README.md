@@ -1,8 +1,13 @@
 📚 School Management System
 Empowering schools with simplicity, efficiency, and organization.
 
+school-management-system/
+├── README.md               # This file!
+├── schema.sql              # SQL script to create tables
+├── data.sql                # SQL script to insert sample data
+├── queries.sql             # Sample queries for common operations
+└── assets/                 # Images, logos, or other resources
 
-(Replace this placeholder with an actual banner image or logo)
 
 🌟 Overview
 Welcome to the School Management System , a robust and intuitive database-driven solution designed to streamline school operations. From managing students and teachers to tracking attendance and grades, this system ensures that every aspect of your school is organized and accessible.
@@ -24,3 +29,4 @@ This project leverages the power of SQL to create a structured and efficient dat
 Database : MySQL (or any SQL-compatible database)
 Schema Design : Normalized tables for scalability and data integrity
 Tools : Any SQL client (e.g., MySQL Workbench, phpMyAdmin)
+
